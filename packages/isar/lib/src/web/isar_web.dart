@@ -12,7 +12,7 @@ import 'package:meta/meta.dart';
 
 const Id isarMinId = -9007199254740991;
 const Id isarMaxId = 9007199254740991;
-final Id isarAutoIncrementId = double.negativeInfinity as int;
+const Id isarAutoIncrementId = -9007199254740992;
 
 Never unsupportedOnWeb() {
   throw UnsupportedError('This operation is not supported for Isar web');
