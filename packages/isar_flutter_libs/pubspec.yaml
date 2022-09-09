@@ -11,7 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  isar: 3.0.0-dev.8
+  isar:
+    git:
+      url: https://github.com/kulture-rob-snider/isar
+      ref: 3.0.0-dev.8-web-fix
+      path: packages/isar
 
 flutter:
   plugin:
